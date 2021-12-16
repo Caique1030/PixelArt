@@ -26,6 +26,7 @@ colors.addEventListener('click', (event) => {
 
 const divPixelBoard = document.querySelector('#pixel-board');
 let colorSelected = 'rgb(0, 0, 0)';
+
 colors.addEventListener('click', () => {
   const selectedColor = document.querySelector('.selected');
   colorSelected = getComputedStyle(selectedColor).backgroundColor;
